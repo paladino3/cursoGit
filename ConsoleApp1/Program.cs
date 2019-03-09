@@ -14,6 +14,18 @@ namespace ConsoleApp1
 
             Console.WriteLine("FAZENDO UMA ALTERACAO NO CODIGO! ");
 
+
+            //fazendo algumas alteracoes
+
+            Console.Write("Digite um valor:");
+            double valor = double.Parse(Console.ReadLine());
+
+            Console.Write(valor = (valor >= 100)? 1 :  0 );
+
+            Console.ReadKey();
+
+
+
         }
     }
 }
