@@ -30,8 +30,8 @@ namespace ConsoleApp1
                 Console.Write("\nDeseja sair? (S) ou (N): ");
                 a = char.Parse(Console.ReadLine());
             }
-            
-     
+
+            Console.WriteLine("Precione para sair");
 
             Console.ReadKey();
            }
